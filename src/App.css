@@ -1,0 +1,188 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+* {
+  box-sizing: border-box;
+  
+}
+ 
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px 0 20px 0;
+}
+
+.h3.mb-3{
+  margin-left: 680px;
+}
+
+.form-signin{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+table,th,td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.active{
+  color: white;
+}
+
+.tabledata{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.C-btn{
+  margin-left:10px;
+  margin-top: 10px;
+}
+.S-btn{
+  margin-left: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.A-btn{
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+input,
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+ 
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+ 
+ 
+/* style the submit button */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+ 
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+h1 {
+  margin-left: 30px;
+}
+p {
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+  margin-left: 350px;
+}
+ 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+ 
+
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+ 
+.hide-md-lg {
+  display: none;
+}
+ 
+
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+li a:hover {
+  background-color: #00ff3b;
+  color: white;
+  text-decoration: none;
+}
+ 
+.push-right {
+  float: right;
+  line-height: 50px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .vl {
+    display: none;
+  }
+  
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
